@@ -1,0 +1,82 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  .app-container {
+    justify-content: center;
+  }
+}
+.withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  width: 48%;
+  max-width: 350px;
+  padding-top: 48px;
+  padding-left: 36px;
+  padding-bottom: 16px;
+  padding-right: 36px;
+}
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.name-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.balance {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+}
+.amount {
+  color: #c4c4c4;
+}
+.rupees {
+  color: #585076;
+  font-size: 10px;
+}
+.choose-amount-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.values-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
